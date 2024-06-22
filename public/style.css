@@ -47,3 +47,15 @@ li {
 a {
 	color: #5dbcfc;
 }
+
+fieldset {
+	max-width: 800px;
+	margin: auto;
+	padding-bottom: 1em;
+}
+input {
+	padding: .4rem;
+}
+#url_input {
+	min-width: 300px;
+}

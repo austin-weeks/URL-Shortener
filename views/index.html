@@ -18,17 +18,25 @@
 
   <body>
     <h1>URL Shortener Microservice</h1>
+    <hr />
     <main>
+
       <section>
         <form action="api/shorturl" method="POST">
           <fieldset>
             <legend>URL Shortener</legend>
+            <p>Input a site to receive a shortcut key number.</p>
             <label for="url_input">URL:</label>
             <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
             <input type="submit" value="POST URL" />
           </fieldset>
         </form>
       </section>
+      <h2>Example Usage:</h2>
+      <p><a href="/api/shorturl/1">[project_url]/api/shorturl/1</a></p>
+      <h3>Redirects to:</h3>
+      <p>https://www.google.com</p>
+
     </main>
     <footer>
       <p>By <a href="https://austin-weeks.github.io">Austin Weeks</a></p>
